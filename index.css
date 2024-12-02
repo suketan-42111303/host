@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #c67575;
+    color: #b29292;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    background: #869aff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.game-container h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.game-container p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.input-group button {
+    background: #ff9797;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.input-group button:hover {
+    background: #555;
+}
+
+.game-container .chances {
+    font-size: 14px;
+    color: #000000;
+}
